@@ -1,3 +1,7 @@
+
+![NopeNet](![Nopenet](https://github.com/user-attachments/assets/d237d20d-ff29-40de-b8dd-b405577ed8cd)
+)
+
 # NopeNet - Network Intrusion Detection System
 
 NopeNet is a sophisticated yet user-friendly network security platform that detects intrusions with 99.8% average accuracy. By analyzing network traffic patterns, it spots and flags potential threats before they become problems. Highly accurate, and remarkably easy to use.
