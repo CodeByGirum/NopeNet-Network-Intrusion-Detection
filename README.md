@@ -1,6 +1,5 @@
+![Nopenet1](https://github.com/user-attachments/assets/00cbd777-7008-48ce-b9e0-e306b9b73822)
 
-![NopeNet](![Nopenet](https://github.com/user-attachments/assets/d237d20d-ff29-40de-b8dd-b405577ed8cd)
-)
 
 # NopeNet - Network Intrusion Detection System
 
