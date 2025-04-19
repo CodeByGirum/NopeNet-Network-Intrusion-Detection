@@ -1,12 +1,16 @@
 ![Nopenet1](https://github.com/user-attachments/assets/00cbd777-7008-48ce-b9e0-e306b9b73822)
 
 
-# NopeNet - Network Intrusion Detection System
 
-NopeNet is a sophisticated yet user-friendly network security platform that detects intrusions with 99.8% average accuracy. By analyzing network traffic patterns, it spots and flags potential threats before they become problems. Highly accurate, and remarkably easy to use.
+# **NopeNet** 
+
+## Network Intrusion Detection System
+
+Most cybersecurity tools are too complicated and can't keep up with modern attacks. People often don’t understand what’s going on or what to do when a threat happens. NopeNet fixes this with a simple and clear dashboard, and an AI assistant that explains things in plain language. It uses machine learning to catch new threats and reaches over 99% average accuracy.
+
+---
 
 ## Features
-
 
 - **Attack Classification**: Identify and categorize different types of network attacks
 - **Interactive Dashboard**: Visualize network traffic and detected threats
@@ -14,85 +18,100 @@ NopeNet is a sophisticated yet user-friendly network security platform that dete
 - **Security Recommendations**: Receive detailed security recommendations based on scan results
 - **NopeNet AI Chat Assistant**: Engage with our intelligent chat interface that understands your network context, answers security questions, and helps investigate potential threats in real-time
 - **Results Visualization**: View detailed analysis results and visualizations
+- **NopeNet Resources Page:** Explore different types of network attacks from the KDD dataset and learn about intrusion detection techniques.
+- **Articles & Research:** Provides academic papers used to build this project.
+
+---
 
 ## Technologies Used
 
-- **Next.js**: React framework for server-rendered applications
-- **TypeScript**: Type-safe JavaScript
-- **Tailwind CSS**: Utility-first CSS framework
-- **Framer Motion**: Animation library for React
-- **shadcn/ui**: High-quality UI components
-- **Lucide React**: Icon library
-
-## Future Improvements
-
-- Integration with real-time network monitoring tools
-- Continuous model retraining with new attack patterns
-- Ensemble methods for higher accuracy
-- Anomaly detection for zero-day attack identification
-- Expanded visualization options for security analysts
-
-## Architecture
-
-NopeNet consists of two main components:
-
-- **Frontend**: Next.js application with React components and Tailwind CSS
-- **Backend**: Python FastAPI server with machine learning models for traffic analysis
+- **Next.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Lucide React**
 
 ## Prerequisites
 
-- Node.js (v16 or higher)
-- Python (v3.8 or higher)
-- npm or yarn
+- **Node.js** (v16 or higher)
+- **Python** (v3.8 or higher)
+- **npm** or **yarn**
+- **OpenAI API** (optional for basic detection, required for the chat feature)
 
 ## Installation
 
-1. Clone the repository:
+1. Open your terminal (Command Prompt, PowerShell, or Terminal on macOS/Linux).
+   Make sure you have Git installed. If not, install it from [https://git-scm.com](https://git-scm.com).
+
+2. Clone the NopeNet repository from GitHub using the following command:
+
    ```
-   git clone <repository-url>
+   git clone https://github.com/CodeByGirum/NopeNet-Network-Intrusion-Detection
    cd nopenet
    ```
 
-2. Install frontend dependencies:
+3. Install frontend dependencies:
+
    ```
    npm install
    ```
 
-3. Install backend dependencies:
+4. Install backend dependencies:
+
    ```
    pip install -r server/requirements.txt
    ```
 
-4. Build the frontend:
+5. **Get your OpenAI API key** (needed for the chat assistant to work):\
+   Go to: [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
+
+6. **Create a ****************************************************************************************************************************************************************************************************************************************************************************************************************************************************`.env.local`**************************************************************************************************************************************************************************************************************************************************************************************************************************************************** file in the project folder** (in the root, next to `package.json`) and add this line:
+
    ```
-   npm run build
+   OPENAI_API_KEY=your-api-key-here
    ```
 
-## Usage
+   Replace `your-api-key-here` with your actual OpenAI API key.\
+   You must do this before running the app or the chat assistant will not work.
 
-### Start both frontend and backend with one command
+7. Run the app:
 
-```
-npm run dev
-```
+   ```
+   npm run dev
+   ```
 
-This runs both the Next.js frontend and Python backend concurrently.
+8. Go to your browser and paste:
 
-### Or start components separately
+   ```
+   http://localhost:3000
+   ```
+
+
+
+### 🎉 **You're all set!**
+
+---
+
+# *Optional (To start components separately)*
 
 Start the frontend:
+
 ```
-npm run start:client
+npm run start:app
 ```
 
-Start the backend:
+Open another terminal and start the backend:
+
 ```
 npm run start:server
 ```
 
 The application will be available at:
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:8000
+
+- Frontend: [http://localhost:3000](http://localhost:3000)
+- Backend API: [http://localhost:8000](http://localhost:8000)
+
+---
 
 ## API Endpoints
 
@@ -111,19 +130,25 @@ NopeNet processes network traffic data formatted according to the [KDD Cup 1999]
 
 ## Model
 
-The system uses an XGBoost classifier trained on the KDD Cup 1999 dataset to detect and classify network attacks into categories:
+The system uses an XGBoost classifier trained on the [KDD Cup 1999 dataset](https://www.kdd.org/kdd-cup/view/kdd-cup-1999/Tasks) to detect and classify network attacks into categories:
+
 - Normal traffic
 - DOS (Denial of Service)
 - Probe (Surveillance/scanning)
 - R2L (Unauthorized access from remote machine)
 - U2R (Unauthorized access to root privileges)
 
-## Resources
+## Future Improvements
 
-- **Resources Directory**: Contains important assets and configurations
-- **NopeNet Resources Page**: Explore different types of network attacks from the KDD dataset and learn about intrusion detection techniques.
-- **Articles & Research**: Provides educational content and insights into network security.
+- Integration with real-time network monitoring tools
+- Continuous model retraining with new attack patterns
+- Ensemble methods for higher accuracy
+- Anomaly detection for zero-day attack identification
+- Expanded visualization options for security analysts
+
+
 
 ## License
 
 [MIT License](LICENSE)
+
