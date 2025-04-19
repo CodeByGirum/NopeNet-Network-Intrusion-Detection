@@ -2,11 +2,11 @@
 
 
 
-# **NopeNet** 
+# **NopeNet** 
 
 ## Network Intrusion Detection System
 
-Most cybersecurity tools are too complicated and can't keep up with modern attacks. People often don’t understand what’s going on or what to do when a threat happens. NopeNet fixes this with a simple and clear dashboard, and an AI assistant that explains things in plain language. It uses machine learning to catch new threats and reaches over 99% average accuracy.
+Most cybersecurity tools are too complicated and can't keep up with modern attacks. People often don't understand what's going on or what to do when a threat happens. NopeNet fixes this with a simple and clear dashboard, and an AI assistant that explains things in plain language. It uses machine learning to catch new threats and reaches over 99% average accuracy.
 
 ---
 
@@ -38,7 +38,45 @@ Most cybersecurity tools are too complicated and can't keep up with modern attac
 - **npm** or **yarn**
 - **OpenAI API** (optional for basic detection, required for the chat feature)
 
-## Installation
+## Quick Start (One-Click Installation)
+
+We've created one-click installers to make the setup process as simple as possible:
+
+### Windows:
+1. Download the repository
+2. Right-click on `install-nopenet.bat` and select "Run as administrator"
+3. Follow the on-screen instructions
+
+### Linux/macOS:
+1. Download the repository
+2. Make the installer executable: `chmod +x install-nopenet.sh`
+3. Run the installer: `./install-nopenet.sh`
+4. Follow the on-screen instructions
+
+The installers will automatically:
+- Check prerequisites
+- Set up required environment
+- Create a desktop shortcut
+- Start the application
+
+## Installation Options
+
+### Option 1: Docker Installation (Recommended)
+
+Docker provides the easiest way to install and run NopeNet with a single command, handling all dependencies automatically.
+
+**Prerequisites:**
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+**Quick Start:**
+1. Clone the repository
+2. Set up your OpenAI API key in `.env.local`
+3. Run `docker-compose up -d`
+
+For detailed Docker installation instructions, see [DOCKER_INSTALL.md](DOCKER_INSTALL.md)
+
+### Option 2: Manual Installation
 
 1. Open your terminal (Command Prompt, PowerShell, or Terminal on macOS/Linux).
    Make sure you have Git installed. If not, install it from [https://git-scm.com](https://git-scm.com).
@@ -92,12 +130,30 @@ Most cybersecurity tools are too complicated and can't keep up with modern attac
 
 ---
 
+## Desktop Shortcuts
+
+NopeNet includes scripts to create desktop shortcuts for easy starting:
+
+### Windows
+Run `create-desktop-shortcut.bat` to create a desktop icon automatically.
+
+### Linux and macOS
+Follow the instructions in [DOCKER_INSTALL.md](DOCKER_INSTALL.md) to set up desktop shortcuts.
+
+---
+
+## Installation Verification
+
+To verify your installation is working correctly, use the [INSTALLATION_CHECKLIST.md](INSTALLATION_CHECKLIST.md) file included in this repository.
+
+---
+
 # *Optional (To start components separately)*
 
 Start the frontend:
 
 ```
-npm run start:app
+npm run start:client
 ```
 
 Open another terminal and start the backend:

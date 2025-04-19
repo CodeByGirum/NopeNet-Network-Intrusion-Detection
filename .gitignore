@@ -53,13 +53,17 @@ downloads/
 eggs/
 .eggs/
 lib64/
-# Important: We want to include the lib/ directory for our utilities
-# parts/
 sdist/
 var/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+nopenet_env/
 
 # IDE
 .idea
