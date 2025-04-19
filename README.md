@@ -47,7 +47,6 @@ Most cybersecurity tools are too complicated and can't keep up with modern attac
 
    ```
    git clone https://github.com/CodeByGirum/NopeNet-Network-Intrusion-Detection
-   cd nopenet
    ```
 
 3. Install frontend dependencies:
