@@ -27,6 +27,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+# Important: Consider including .env.local with default settings to help new users
+# Remove the line above and uncomment the line below if you want to commit .env.local
+# .env*.local
+# !.env.local
 
 # vercel
 .vercel
@@ -48,9 +52,9 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
-parts/
+# Important: We want to include the lib/ directory for our utilities
+# parts/
 sdist/
 var/
 *.egg-info/
