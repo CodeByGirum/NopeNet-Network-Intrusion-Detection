@@ -268,8 +268,8 @@ export default function AssignmentFilesPage() {
                           <p className="text-sm text-gray-300 pl-7">
                             Combining multiple specialized models for higher detection accuracy
                           </p>
-                        </div>
-                        
+                      </div>
+
                         <div className="bg-gradient-to-br from-amber-900/30 to-red-900/30 border border-amber-800/30 rounded-lg p-5 transform hover:shadow-[0_0_15px_rgba(245,158,11,0.3)]">
                           <h4 className="text-amber-400 font-bold flex items-center mb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -615,15 +615,15 @@ export default function AssignmentFilesPage() {
                               <h4 className="text-blue-400 mt-0 mb-2">Comparison to Other Models</h4>
                               <div className="overflow-x-auto">
                                 <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-4">
-                                  <table className="w-full text-sm">
+                                <table className="w-full text-sm">
                                     <thead className="border-b border-gray-800 pb-2">
                                       <tr>
                                         <th className="text-left pb-3 pr-4 text-blue-400">Model</th>
                                         <th className="text-left pb-3 pr-4 text-blue-400">Accuracy</th>
                                         <th className="text-left pb-3 text-blue-400">Training Speed</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
                                       <tr className="border-b border-gray-800/50">
                                         <td className="py-3 pr-4 font-medium">XGBoost</td>
                                         <td className="py-3 pr-4">
@@ -636,7 +636,7 @@ export default function AssignmentFilesPage() {
                                             Slow
                                           </span>
                                         </td>
-                                      </tr>
+                                    </tr>
                                       <tr className="border-b border-gray-800/50">
                                         <td className="py-3 pr-4 font-medium">Random Forest</td>
                                         <td className="py-3 pr-4">
@@ -649,7 +649,7 @@ export default function AssignmentFilesPage() {
                                             Medium
                                           </span>
                                         </td>
-                                      </tr>
+                                    </tr>
                                       <tr className="border-b border-gray-800/50">
                                         <td className="py-3 pr-4 font-medium">Logistic Regression</td>
                                         <td className="py-3 pr-4">
@@ -662,8 +662,8 @@ export default function AssignmentFilesPage() {
                                             Medium
                                           </span>
                                         </td>
-                                      </tr>
-                                      <tr>
+                                    </tr>
+                                    <tr>
                                         <td className="py-3 pr-4 font-medium">LightGBM</td>
                                         <td className="py-3 pr-4">
                                           <span className="bg-red-900/30 text-red-400 px-2 py-1 rounded font-medium">
@@ -675,9 +675,9 @@ export default function AssignmentFilesPage() {
                                             Fast
                                           </span>
                                         </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
+                                    </tr>
+                                  </tbody>
+                                </table>
                                 </div>
                               </div>
                             </div>
@@ -791,7 +791,7 @@ export default function AssignmentFilesPage() {
                               <p className="text-sm text-gray-300">
                                 Full FastAPI backend with optimized endpoints for real-time traffic analysis and batch processing
                               </p>
-                            </div>
+                                </div>
                             
                             <div className="bg-black/40 border border-indigo-800/40 rounded-lg p-4 hover:shadow-[0_0_10px_rgba(79,70,229,0.2)] transition-all">
                               <h4 className="text-indigo-400 font-medium flex items-center mb-2">
@@ -803,7 +803,7 @@ export default function AssignmentFilesPage() {
                               <p className="text-sm text-gray-300">
                                 Automated extraction and normalization of 41 features from network traffic data
                               </p>
-                            </div>
+                                </div>
                             
                             <div className="bg-black/40 border border-indigo-800/40 rounded-lg p-4 hover:shadow-[0_0_10px_rgba(79,70,229,0.2)] transition-all">
                               <h4 className="text-indigo-400 font-medium flex items-center mb-2">
@@ -815,7 +815,7 @@ export default function AssignmentFilesPage() {
                               <p className="text-sm text-gray-300">
                                 High-performance XGBoost implementation with optimized parameters and rapid classification
                               </p>
-                            </div>
+                                </div>
                             
                             <div className="bg-black/40 border border-indigo-800/40 rounded-lg p-4 hover:shadow-[0_0_10px_rgba(79,70,229,0.2)] transition-all">
                               <h4 className="text-indigo-400 font-medium flex items-center mb-2">
@@ -827,7 +827,7 @@ export default function AssignmentFilesPage() {
                               <p className="text-sm text-gray-300">
                                 Interactive dashboards and charts providing instant insights into detection results
                               </p>
-                            </div>
+                                </div>
                             
                             <div className="bg-black/40 border border-indigo-800/40 rounded-lg p-4 hover:shadow-[0_0_10px_rgba(79,70,229,0.2)] transition-all">
                               <h4 className="text-indigo-400 font-medium flex items-center mb-2">
@@ -839,7 +839,7 @@ export default function AssignmentFilesPage() {
                               <p className="text-sm text-gray-300">
                                 Contextual recommendations tailored to detected attack types with remediation steps
                               </p>
-                            </div>
+                                </div>
                             
                             <div className="bg-black/40 border border-indigo-800/40 rounded-lg p-4 hover:shadow-[0_0_10px_rgba(79,70,229,0.2)] transition-all">
                               <h4 className="text-indigo-400 font-medium flex items-center mb-2">
@@ -851,7 +851,7 @@ export default function AssignmentFilesPage() {
                               <p className="text-sm text-gray-300">
                                 Intelligent chatbot providing expert analysis and answering security-related questions
                               </p>
-                            </div>
+                                </div>
                           </div>
                         </div>
 
@@ -867,7 +867,7 @@ export default function AssignmentFilesPage() {
                         <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-4 my-6">
                           <h4 className="text-blue-400 mt-0">Performance Metrics</h4>
                           <div className="overflow-x-auto">
-                            <table className="w-full text-sm">
+                              <table className="w-full text-sm">
                               <thead className="border-b border-gray-800 pb-2">
                                 <tr>
                                   <th className="text-left p-2 text-blue-400">Attack Type</th>
@@ -875,151 +875,151 @@ export default function AssignmentFilesPage() {
                                   <th className="text-center p-2 text-blue-400">Recall</th>
                                   <th className="text-center p-2 text-blue-400">F1-Score</th>
                                   <th className="text-center p-2 text-blue-400">Support</th>
-                                </tr>
-                              </thead>
-                              <tbody>
+                                  </tr>
+                                </thead>
+                                <tbody>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">back</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">185</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">buffer_overflow</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">22.0%</td>
                                   <td className="p-2 text-center">36.0%</td>
                                   <td className="p-2 text-center">9</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">ftp_write</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">guess_passwd</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">91.0%</td>
                                   <td className="p-2 text-center">95.0%</td>
                                   <td className="p-2 text-center">11</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">imap</td>
                                   <td className="p-2 text-center">25.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">40.0%</td>
                                   <td className="p-2 text-center">1</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">ipsweep</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">733</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">land</td>
                                   <td className="p-2 text-center">50.0%</td>
                                   <td className="p-2 text-center">67.0%</td>
                                   <td className="p-2 text-center">57.0%</td>
                                   <td className="p-2 text-center">3</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">loadmodule</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">neptune</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">8228</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">nmap</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">313</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">normal</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">13422</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">perl</td>
                                   <td className="p-2 text-center">50.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">67.0%</td>
                                   <td className="p-2 text-center">1</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">phf</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">1</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">pod</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">93.0%</td>
                                   <td className="p-2 text-center">96.0%</td>
                                   <td className="p-2 text-center">43</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">portsweep</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">573</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">rootkit</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">1</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">satan</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">99.0%</td>
                                   <td className="p-2 text-center">738</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">smurf</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">534</td>
-                                </tr>
+                                  </tr>
                                 <tr className="border-b border-gray-800/30">
                                   <td className="p-2">spy</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">0.0%</td>
                                   <td className="p-2 text-center">1</td>
-                                </tr>
-                                <tr>
+                                  </tr>
+                                  <tr>
                                   <td className="p-2">teardrop</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">100.0%</td>
                                   <td className="p-2 text-center">188</td>
-                                </tr>
-                              </tbody>
-                            </table>
+                                  </tr>
+                                </tbody>
+                              </table>
                           </div>
                         </div>
 
@@ -1047,8 +1047,8 @@ export default function AssignmentFilesPage() {
                               </h4>
                               <p className="text-sm text-gray-300 pl-7">
                                 Continuous model retraining with new attack patterns and emerging threats
-                              </p>
-                            </div>
+                                  </p>
+                                </div>
                             
                             <div className="bg-gradient-to-br from-green-900/30 to-emerald-900/30 border border-green-800/30 rounded-lg p-5 transform hover:shadow-[0_0_15px_rgba(16,185,129,0.3)]">
                               <h4 className="text-green-400 font-bold flex items-center mb-3">
@@ -1060,8 +1060,8 @@ export default function AssignmentFilesPage() {
                               <p className="text-sm text-gray-300 pl-7">
                                 Combining multiple specialized models for higher detection accuracy
                               </p>
-                            </div>
-                            
+                              </div>
+
                             <div className="bg-gradient-to-br from-amber-900/30 to-red-900/30 border border-amber-800/30 rounded-lg p-5 transform hover:shadow-[0_0_15px_rgba(245,158,11,0.3)]">
                               <h4 className="text-amber-400 font-bold flex items-center mb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1072,8 +1072,8 @@ export default function AssignmentFilesPage() {
                               <p className="text-sm text-gray-300 pl-7">
                                 Advanced anomaly detection algorithms to identify previously unknown threats
                               </p>
-                            </div>
-                            
+                              </div>
+
                             <div className="md:col-span-2 bg-gradient-to-br from-purple-900/30 to-pink-900/30 border border-purple-800/30 rounded-lg p-5 transform hover:shadow-[0_0_15px_rgba(168,85,247,0.3)]">
                               <h4 className="text-purple-400 font-bold flex items-center mb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1083,9 +1083,9 @@ export default function AssignmentFilesPage() {
                               </h4>
                               <p className="text-sm text-gray-300 pl-7">
                                 Expanded interactive visualization options for security analysts with 3D network topology mapping and real-time threat intelligence
-                              </p>
-                            </div>
-                          </div>
+                                  </p>
+                                </div>
+                                </div>
                         </div>
                       </div>
                     </CardContent>
